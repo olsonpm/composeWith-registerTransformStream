@@ -1,6 +1,6 @@
-# composewith-eventemitter-leak
+# composeWith-registerTransformStream
 
-To test the eventemitter leak
+To test the registerTransformStream issue [#819](https://github.com/yeoman/generator/issues/819)
 ```
 git clone git@github.com:olsonpm/composeWith-registerTransformStream.git
 cd composeWith-registerTransformStream/generator-base
