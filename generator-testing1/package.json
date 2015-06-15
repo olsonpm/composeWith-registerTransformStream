@@ -1,0 +1,15 @@
+{
+  "name": "generator-testing1",
+  "version": "1.0.0",
+  "description": "just testing composewith",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "through2": "^2.0.0",
+    "yeoman-generator": "^0.20.1"
+  }
+}

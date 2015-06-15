@@ -1,0 +1,23 @@
+{
+  "name": "generator-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olsonpm/composeWith-registerTransformStream.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olsonpm/composeWith-registerTransformStream/issues"
+  },
+  "homepage": "https://github.com/olsonpm/composeWith-registerTransformStream#readme",
+  "dependencies": {
+    "generator-testing1": "file:../generator-testing1",
+    "yeoman-generator": "^0.20.1"
+  }
+}
