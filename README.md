@@ -2,8 +2,10 @@
 
 To test my fix for the registerTransformStream issue [#819](https://github.com/yeoman/generator/issues/819)
 ```
-git clone git@github.com:olsonpm/composeWith-registerTransformStream.git#fix
-cd composeWith-registerTransformStream/generator-testing1
+git clone git@github.com:olsonpm/composeWith-registerTransformStream.git
+cd composeWith-registerTransformStream
+git checkout fix
+cd generator-testing1
 npm install
 cd ../generator-base
 npm install && npm link
