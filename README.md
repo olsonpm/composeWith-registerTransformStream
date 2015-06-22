@@ -10,7 +10,8 @@ npm install
 cd ../generator-base
 npm install && npm link
 
-# assuming you don't have ~/tmp.d/yeoman, let's make a temporary dir to test the generator
+# assuming you don't have ~/tmp.d/yeoman, let's make a temporary dir
+#   to test the generator
 mkdir -p ~/tmp.d/yeoman/
 cd ~/tmp.d/yeoman
 
@@ -19,13 +20,13 @@ cd ~/tmp.d/yeoman
 # - gen-test1.txt
 # - test.js
 #
-# gen-base.txt is only located in generator-base's template, and will have the transformed
-#   contents "generator base:\n"
-# gen-test.txt is only located in generator-testing1's template, and will have the transformed
-#   contents "generator testing1:\n"
-# test.js is found in both generator-base and generator-testing1's template, and will have
-#   the transformed contents "generator testing1:\n" due to later file writes overwriting
-#   previous ones
+# gen-base.txt is only located in generator-base's template, and will have the 
+$   transformed contents "generator base:\n"
+# gen-test.txt is only located in generator-testing1's template, and will have
+#   the transformed contents "generator testing1:\n"
+# test.js is found in both generator-base and generator-testing1's template,
+#   and will have the transformed contents "generator testing1:\n" due to
+#   later file writes overwriting previous ones
 yo base
 
 # outputs:
