@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "through2": "^2.0.0",
-    "yeoman-generator": "^0.20.1"
+    "yeoman-generator": "olsonpm/generator#composed-transforms"
   }
 }

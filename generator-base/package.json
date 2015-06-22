@@ -18,6 +18,7 @@
   "homepage": "https://github.com/olsonpm/composeWith-registerTransformStream#readme",
   "dependencies": {
     "generator-testing1": "file:../generator-testing1",
-    "yeoman-generator": "^0.20.1"
+    "through2": "^2.0.0",
+    "yeoman-generator": "olsonpm/generator#composed-transforms"
   }
 }

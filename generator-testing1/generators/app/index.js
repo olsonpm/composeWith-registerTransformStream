@@ -5,8 +5,7 @@
 //---------//
 
 var generators = require('yeoman-generator')
-    , through2 = require('through2')
-    , path = require('path');
+    , through2 = require('through2');
 
 
 //------//
@@ -20,7 +19,9 @@ module.exports = generators.Base.extend({
     , 'writing': function writing() {
         this.registerTransformStream(
             through2.obj(function(file, enc, cb) {
-                console.log("transforming '" + file.path + "'");
+                if (file.contents) {
+                    file.contents = new Buffer("generator testing1:\n" + file.contents.toString());
+                }
                 this.push(file);
                 cb();
             })
